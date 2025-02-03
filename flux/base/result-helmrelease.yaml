@@ -13,4 +13,4 @@ spec:
         kind: GitRepository
         name: instavote-deploy
   interval: 10m0s
-  targetNamespace: instavote-deploy
+  targetNamespace: instavote
