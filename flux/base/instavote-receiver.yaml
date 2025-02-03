@@ -11,7 +11,7 @@ spec:
   interval: 10m0s
   resources:
   - kind: GitRepository
-    name: instavote
+    name: instavote-deploy
   secretRef:
     name: webhook-token
   type: github
