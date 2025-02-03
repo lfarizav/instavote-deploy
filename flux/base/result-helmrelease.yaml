@@ -11,6 +11,6 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: instavote
+        name: instavote-deploy
   interval: 10m0s
-  targetNamespace: instavote
+  targetNamespace: instavote-deploy
