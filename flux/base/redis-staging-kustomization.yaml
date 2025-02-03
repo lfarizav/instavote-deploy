@@ -11,5 +11,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: instavote-deploy
-  targetNamespace: instavote-deploy
+  targetNamespace: instavote
   timeout: 2m0s
