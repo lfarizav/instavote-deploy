@@ -10,6 +10,6 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: instavote-deploy
+    name: instavote
   targetNamespace: instavote
   timeout: 2m0s
