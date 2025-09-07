@@ -5,7 +5,7 @@ metadata:
   name: slack
   namespace: instavote
 spec:
-  channel: fluxcd
+  channel: vote
   secretRef:
     name: slack-url
   type: slack
