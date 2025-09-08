@@ -13,7 +13,11 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
+      annotations:
+        k8s.v1.cni.cncf.io/networks: |
+          [{
+            "name": "bridge-net"
+          }]
       labels:
         app: worker-deployment
     spec:

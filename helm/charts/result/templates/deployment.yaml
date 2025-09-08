@@ -17,6 +17,10 @@ spec:
       annotations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+        k8s.v1.cni.cncf.io/networks: |
+          [{
+            "name": "bridge-net"
+          }]
       labels:
         {{- include "result.labels" . | nindent 8 }}
         {{- with .Values.podLabels }}
