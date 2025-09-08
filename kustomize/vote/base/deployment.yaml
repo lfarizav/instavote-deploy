@@ -14,11 +14,11 @@ spec:
   strategy: {}
   template:
     metadata:
-      annotations:
-        k8s.v1.cni.cncf.io/networks: |
-          [{
-            "name": "bridge-net"
-          }]
+#      annotations:
+#        k8s.v1.cni.cncf.io/networks: |
+#          [{
+#            "name": "bridge-net"
+#          }]
       labels:
         app: vote
         tier: front
