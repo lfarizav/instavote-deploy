@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - svc.yaml
+- ingress.yaml
 commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga
