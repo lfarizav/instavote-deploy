@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - svc.yaml
-- ingress.yaml
+- vote-ingress.yaml
+- ingress-nginx-controller.yaml
 commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga
