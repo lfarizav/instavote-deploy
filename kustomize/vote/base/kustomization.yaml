@@ -5,5 +5,8 @@ resources:
 - svc.yaml
 - vote-ingress.yaml
 - ingress-nginx-controller.yaml
+- tunnel-credentials.yaml
+- cloudflared-deployment.yaml
+- configmap.yaml
 commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga

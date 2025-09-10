@@ -1,0 +1,21 @@
+apiVersion: v1
+data:
+  config.yaml: |
+    # config.yaml
+    tunnel: 50c415b4-16fc-45a9-b2c8-7201a6573dc8
+    credentials-file: /etc/cloudflared/credentials.json
+
+    ingress:
+      # This rule routes traffic for vote.beanters.com
+      - hostname: vote.beanters.com
+        # This points directly to your 'vote' service in the 'instavote' namespace
+        service: http://vote.instavote.svc.cluster.local:80
+      # This is a catch-all rule to prevent random requests from hitting your services
+      - service: http_status:404
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-09-10T20:03:03Z"
+  name: tunnel-config
+  namespace: instavote
+  resourceVersion: "17631"
+  uid: 944334df-cdc3-4882-8d14-0c6cf2a55439
