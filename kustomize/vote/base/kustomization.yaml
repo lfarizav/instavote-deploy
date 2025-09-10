@@ -1,12 +1,13 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- deployment.yaml
-- svc.yaml
-- vote-ingress.yaml
-- ingress-nginx-controller.yaml
-- tunnel-credentials.yaml
 - cloudflared-deployment.yaml
+- config.yaml
 - configmap.yaml
+- deployment.yaml
+- ingress-nginx-controller.yaml
+- svc.yaml
+- tunnel-credentials.yaml
+- vote-ingress.yaml
 commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga
