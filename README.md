@@ -7,7 +7,7 @@
       </a>
     </td>
     <td style="border-collapse: collapse; border: none; vertical-align: center;">
-      <b><font size = "5">FluxCD + Kubernetes Multitenancy Lab</font></b>
+      <b><font size = "5">Instavote deployment</font></b>
     </td>
   </tr>
 </table>
