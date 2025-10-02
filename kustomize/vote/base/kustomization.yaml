@@ -7,7 +7,6 @@ resources:
 - vote-ingress.yaml
 - cloudflared-deployment.yaml
 - configmap.yaml
-- ingress-nginx-controller.yaml
 - tunnel-credentials.yaml
 commonAnnotations:
   supported-by: Luis Felipe Ariza Vesga
