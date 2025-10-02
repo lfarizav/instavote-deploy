@@ -24,6 +24,6 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: lfarizav/vote
         name: vote
         resources: {}
